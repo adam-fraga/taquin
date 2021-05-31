@@ -1,0 +1,13 @@
+/*Set la taille de l'espace de jeu*/
+#game-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+}
+
+/*Effet d'hover sur image'*/
+.pics-lum:hover {
+    box-shadow: 0px 0px 8px whitesmoke;
+}
